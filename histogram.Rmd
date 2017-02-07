@@ -1,0 +1,15 @@
+---
+title: "Histogram"
+author: "Faisal"
+date: "February 6, 2017"
+output: html_document
+---
+This is a test file for graphing
+
+```{r}
+#x=c(3:25)
+x=rnorm(100)
+hist(x, xlab="Z", ylab="Freq.",main="100 Random Values from the Standard Normal",col="blue")
+
+boxplot(x)
+```
